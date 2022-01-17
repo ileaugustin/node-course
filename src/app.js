@@ -30,14 +30,14 @@ app.get("", (req, res) => {
 app.get("/about", (req, res) => {
     res.render('about', {
         title: "About Page",
-        name: "pista"
+        name: "augustin"
     });
 })
 
 app.get("/help", (req, res) => {
     res.render('help', {
         title: "Help Page",
-        name: "pista",
+        name: "augustin",
         message: "heeeeeeeeeeeeeeeeeeeelp"
     });
 })
